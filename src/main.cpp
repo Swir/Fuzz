@@ -1103,7 +1103,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 15 * 60 * 60; // FuzzCoin: 15 minutes
+static const int64 nTargetTimespan = 0.5 * 60; // FuzzCoin: 0.5 minutes
 static const int64 nTargetSpacing = 0.5 * 60; // FuzzCoin: 0.5 minutes
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
